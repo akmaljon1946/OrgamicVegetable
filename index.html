@@ -1,74 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./css/fonts.css">
-	<link rel="stylesheet" href="./css/normalize.css">
-	<link rel="stylesheet" href="./css/main.css">
-	<title>n29orgamic</title>
-</head>
-<body>
-	<header class="header">
-		<div class="container">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="./css/fonts.css">
+		<link rel="stylesheet" href="./css/normalize.css">
+		<link rel="stylesheet" href="./css/main.css">
+		<title>n29orgamic</title>
+	</head>
+	<body>
+		<header class="header">
 			<div class="header-top">
+			<div class="header__container container">
 				<address class="header-top__adds">
 					<div class="adds-name">
-						 15/A, Nest Tower, NYC
+						15/A, Nest Tower, NYC
 					</div>
 					<a class="adds-email" href="mailto:info@webmail.com" >
 						info@webmail.com
 					</a>
 				</address>
-				<div class="header-top__right">
-					<select class="header-top__right-lang"  name="lang">
-						<option value="en">English</option>
-						<option value="uz">Uzbek</option>
-						<option value="ru">Russian</option>
-						<option value="ua">Arabian</option>
-					</select>
-					<ul class="header-top__right-list">
-						<li class="header-top__right-item">
-							<a class="header-top__right-link" href="#">
-								<img class="header-top__right-img" src="./images/facebook.svg" width="7" height="13" alt="social icon" >
-							</a>
-						</li>
-						<li class="header-top__right-item">
-							<a class="header-top__right-link" href="#">
-								<img class="header-top__right-img" src="./images/twitter.svg" width="14" height="11" alt="social icon" >
-							</a>
-						</li>
-						<li class="header-top__right-item">
-							<a class="header-top__right-link" href="#">
-								<img class="header-top__right-img" src="./images/instagram.svg" width="13" height="13" alt="social icon" >
-							</a>
-						</li>
-						<li class="header-top__right-item">
-							<a class="header-top__right-link" href="#">
-								<img class="header-top__right-img" src="./images/linkedin.svg" width="14" height="13" alt="social icon" >
-							</a>
-						</li>
-					</ul>
-				</div><!--- End of top-right -->
-			</div><!--- End of header-top -->
+						<div class="header-top__right">
+							<select class="header-top__right-lang"  name="lang">
+								<option value="en">English</option>
+							<option value="uz">Uzbek</option>
+							<option value="ru">Russian</option>
+							<option value="ua">Arabian</option>
+						</select>
+						<ul class="header-top__right-list">
+							<li class="header-top__right-item">
+								<a class="header-top__right-link" href="#">
+									<img class="header-top__right-img" src="./images/facebook.svg" width="7" height="13" alt="social icon" >
+								</a>
+							</li>
+							<li class="header-top__right-item">
+								<a class="header-top__right-link" href="#">
+									<img class="header-top__right-img" src="./images/twitter.svg" width="14" height="11" alt="social icon" >
+								</a>
+							</li>
+							<li class="header-top__right-item">
+								<a class="header-top__right-link" href="#">
+									<img class="header-top__right-img" src="./images/instagram.svg" width="13" height="13" alt="social icon" >
+								</a>
+							</li>
+							<li class="header-top__right-item">
+								<a class="header-top__right-link" href="#">
+									<img class="header-top__right-img" src="./images/linkedin.svg" width="14" height="13" alt="social icon" >
+								</a>
+							</li>
+						</ul>
+					</div><!--- End of top-right -->
+				</div><!--- End of header-container -->
+				</div><!--- End of header-top -->
+					
+					<div class="header-bottom container">
+						<div class="header-bottom__logo">
+							<img class="header-bottom__logo-img" src="./images/logo.svg" width="217" height="50" alt="orgamic logo" >
+						</div>
+						<div class="header-bottom__wrap">
+							<nav class="navbar">
+								<a class="navbar__link navbar__link--activ" href="#" >Home +</a>
+								<a class="navbar__link" href="#" >About +</a>
+							<a class="navbar__link" href="#" >Shop +</a>
+							<a class="navbar__link" href="#" >Page +</a>
+							<a class="navbar__link" href="#" >Contact</a>
+						</nav>
+						<button class="link-btn">Login</button>
+						<a class="search" href="#" >
+							<img class="search__img" src="./images/magnifier.png" width="12" height="13" alt="magnifier icon">
+						</a>
+						<a class="basket" href="#" >
+							<img class="search__img" src="./images/basket.png" width="13" height="13" alt="magnifier icon">
+							<span class="basket-number">1</span>
+						</a>	
+					</div><!--- End of header-bottom-wrap -->
+				</div><!--- End of header-bottom -->
+</header><!--- End of header -->
 
-			<div class="header-bottom">
-				<div class="header-bottom__logo">
-					<img class="header-bottom__logo-img" src="./images/logo.svg" width="217" height="50" alt="orgamic logo" >
-				</div>
-				<div class="header-bottom__wrap">
-					<nav class="wrap-navbar">
-						<a class="wrap-navbar__link" href="#" >Home</a>
-						<a class="wrap-navbar__link" href="#" >About</a>
-						<a class="wrap-navbar__link" href="#" >Shop</a>
-						<a class="wrap-navbar__link" href="#" >Page</a>
-						<a class="wrap-navbar__link" href="#" >Contact</a>
-					</nav>
-					<button class="link-btn">Login</button>
-				</div>
-			</div>
-		</div><!--- End of container -->
-</header>
+	<hero class="hero">
+		<div class="container">
+			
+		</div>
+	</hero>
 </body>
 </html>
