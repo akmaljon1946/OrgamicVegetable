@@ -18,6 +18,10 @@ body {
     margin: 0;
 }
 
+.main{
+    flex-grow: 1;
+}
+
 main {
     display: block;
 }

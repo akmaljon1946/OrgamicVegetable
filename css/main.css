@@ -1,6 +1,6 @@
 body{
      font-family: "Gilroy","Arial",sans-serif;
-     /* background-color:rgb(39, 211, 39); */
+     
 }
 
 .container {
@@ -41,8 +41,8 @@ body{
     line-height: 15px;
     color: #000000;
 
-
 }
+
 .adds-name::before{
     content:"";
     display: block;
@@ -83,6 +83,7 @@ body{
 .header-top__right{
     display: flex;
     align-items:center;
+
 }
 
 .header-top__right-lang{
@@ -130,7 +131,6 @@ body{
 .navbar{
     margin-right: 48px;
 }
-
 
 .navbar__link{
     text-decoration: none;
@@ -209,7 +209,196 @@ body{
     color: #FFFFFF;
 }
 
+/* hero */
+
 .hero{
-    width: 1400px;
-    background-color: rgba(118, 167, 19, 0.3);
+    height: 700px;
+    background: rgba(118, 167, 19, 0.31);
+    background-image:url(../images/textorgamic.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position:right 129px top 139px;
+
 }
+
+.hero__inner{
+    margin-top: 95px;
+    margin-bottom:88px;
+    background-image: url(../images/vegphoto.png);
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position:right -38px top -17px;
+
+}
+
+.inner-slogan{
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 74px;
+    text-transform: uppercase;
+    color: #76A713;
+
+}
+
+.inner-heading{
+    width: 480px;
+    margin: 0;
+    padding-bottom: 30px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 119px;
+    text-transform: uppercase;
+    color: #191D28;
+
+}
+
+.hero__btn{
+    width: 160px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:none;
+    background-color: #76A713;
+    /* button */
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #FFFFFF;
+    /* content */
+
+}
+
+.hero__bottom{
+    width: 1170px;
+    height:200px ;
+    padding-top: 74px;
+    padding-bottom: 74px;
+    border: 1.5px solid #DDDDDD;
+    background-color: #ffffff;
+}
+
+.hero__bottom-list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-right: 10px;
+    
+}
+
+.hero__bottom-item{
+    width: 240px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.hero__bottom-items{
+    width: 240px;
+    height: 60px;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.bottom-item__heading{
+    margin: 0;
+    margin-right: 40px;
+    padding-bottom: 6px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.bottom-item__text{
+    margin: 0;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+
+}
+
+
+.bottom-item__texts {
+    margin: 0;
+    margin-right: 40px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+
+}
+
+
+.bottom-item__img{
+    margin-right: 19px;
+
+}
+
+
+.bottom-item-line{
+    position: relative;
+    width: 50px;
+    height: 1px;
+    display: block;
+    background-color: #dddddd;
+    transform: rotate(90deg);
+}
+
+/* hero-arrow */
+
+.hero__btnleft{
+    position: absolute;
+    top: 465px;
+    left: 100px;
+    width: 40px;
+    height: 40px;
+    border:none;
+    background-image: url(../images/arrowleft.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position:12px 16px;
+    background-color: #76A713;
+    cursor: pointer;
+}
+
+.hero__btnright{
+    position: absolute;
+    top: 475px;
+    right: 106px;
+    width: 40px;
+    height: 40px;
+    border:none;
+    background-image: url(../images/arrowright.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position:12px 16px;
+    border:1px solid #76A713;
+    background-color:rgba(118, 167, 19, -0.60);
+    cursor: pointer;
+}
+/* end of hero */
