@@ -1,0 +1,108 @@
+/* discount */
+
+.discount__wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 77px;
+
+}
+
+.discount__wrap-left {
+  width: 585px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 46px 39px 47px 0px;
+  background-color: #76A713;
+  background-image: url(../images/organic-food-broccoli-cauliflower.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+.wrap-left__text {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.wrap-left__heading {
+  width: 241px;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 59px;
+  text-align: right;
+  color: #FFFFFF;
+
+}
+
+.wrap-left__btn {
+  width: 110px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 29px;
+  border: 1px solid #FF6600;
+  background-color: #FF6600;
+  /* button */
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #FFFFFF;
+  /* content */
+}
+
+.wrap-left__btn:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* End of wrap-left */
+.discount__wrap-right {
+  width: 585px;
+  display: flex;
+  flex-direction: column;
+  padding: 46px 40px 47px 0px;
+  align-items: flex-end;
+  background-color: #FF6600;
+  background-image: url(../images/fresh-fruits.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.wrap-right__btn {
+  width: 110px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 29px;
+  border: 1px solid #76A713;
+  background-color: #76A713;
+  /* button */
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #FFFFFF;
+  /* content */
+}
+
+.wrap-right__btn:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* End of wrap-right */

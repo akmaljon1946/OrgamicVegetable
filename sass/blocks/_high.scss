@@ -1,0 +1,111 @@
+/* high */
+
+.high {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 197px;
+}
+
+.high__left {
+  display: flex;
+
+}
+
+.left__inner {
+  width: 271px;
+  margin-left: 30px;
+}
+
+.left__inner-heading {
+  padding: 6px 81px;
+  margin-top: 19px;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  border: 2px dashed rgba(118, 167, 19, 0.5);
+  color: #76A713;
+
+}
+
+
+.high__right {
+  width: 570px;
+  margin-left: 27px;
+
+}
+
+.high__right-heading {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 89px;
+  text-transform: uppercase;
+  color: #191D28;
+
+}
+
+.hight__right-text {
+  margin-bottom: 35px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #888888;
+
+}
+
+.blockquote__text {
+  width: 480px;
+  margin-left: 19px;
+  margin-bottom: 30px;
+  font-family: Gilroy;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #AAAAAA;
+
+}
+
+.blockquote__text::after {
+  content: "";
+  width: 28px;
+  height: 20px;
+  display: inline-block;
+  background-image: url(../images/Group.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.blockquote {
+  position: relative;
+}
+
+.blockquote__line {
+  position: absolute;
+  bottom: 94px;
+  left: -16px;
+  width: 36px;
+  height: 2px;
+  display: block;
+  background-color: #76A713;
+  transform: rotate(90deg);
+
+}
+
+.cite {
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 140%;
+  color: #000000;
+}
+
+/* End of high */
