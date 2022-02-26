@@ -403,6 +403,10 @@ body {
   margin: 0 auto;
 }
 
+.active {
+  background: #76A713;
+}
+
 /* header */
 .header__container {
   display: -webkit-box;
@@ -962,10 +966,16 @@ body {
   font-size: 16px;
   line-height: 140%;
   color: #AAAAAA;
+  position: relative;
 }
 
 .blockquote__text::after {
   content: "";
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
   width: 28px;
   height: 20px;
   display: inline-block;
@@ -974,13 +984,9 @@ body {
   background-size: contain;
 }
 
-.blockquote {
-  position: relative;
-}
-
 .blockquote__line {
   position: absolute;
-  bottom: 94px;
+  bottom: 97px;
   left: -16px;
   width: 36px;
   height: 2px;
@@ -1309,4 +1315,166 @@ body {
 }
 
 /* End of wrap-right */
+.products__heading {
+  margin-top: 77px;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #191D28;
+}
+
+.products .navs__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style-type: none;
+  margin-top: 42px;
+}
+
+.products .navs__item {
+  width: 70px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #EBEBEB;
+  margin-right: 10px;
+}
+
+.products .navs__link {
+  text-decoration: none;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.products .products-inner {
+  margin-top: 30px;
+}
+
+.products .products-inner__list {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.products .products-inner__item {
+  width: 370px;
+  height: 553px;
+  -webkit-box-shadow: 0px 0px 0px 3px #76a713 inset;
+          box-shadow: 0px 0px 0px 3px #76a713 inset;
+}
+
+.products .products-inner .item__img {
+  margin-top: 70px;
+  margin-right: 39px;
+  margin-left: 39px;
+}
+
+.products .products-inner .item__box {
+  padding-top: 21px;
+  padding-bottom: 30px;
+  margin-top: 76px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #F8F8F8;
+}
+
+.products .products-inner .item__box-heading {
+  font-family: "Oswald";
+  font-style: norma;
+  font-weight: 500px;
+  font-size: 24px;
+  font-line-height: 150%;
+}
+
+.products .products-inner .item__box-price {
+  margin-top: 9px;
+  font-family: "Oswald";
+  font-style: norma;
+  font-weight: 600px;
+  font-size: 16px;
+  font-line-height: 150%;
+  color: #76A713;
+}
+
+.products .products-inner .item__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.products .products-inner .item__box-btn {
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+.products .products-inner__item-link {
+  width: 120px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+  background-color: #76A713;
+  /* button */
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #FFFFFF;
+  /* content */
+}
 /*# sourceMappingURL=main.css.map */

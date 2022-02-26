@@ -57,8 +57,9 @@
   font-size: 16px;
   line-height: 140%;
   color: #888888;
-
+  
 }
+
 
 .blockquote__text {
   width: 480px;
@@ -70,26 +71,29 @@
   font-size: 16px;
   line-height: 140%;
   color: #AAAAAA;
+  position: relative;
 
 }
 
 .blockquote__text::after {
   content: "";
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  transform: translateX(50%);
   width: 28px;
   height: 20px;
   display: inline-block;
   background-image: url(../images/Group.png);
   background-repeat: no-repeat;
   background-size: contain;
+
 }
 
-.blockquote {
-  position: relative;
-}
 
 .blockquote__line {
   position: absolute;
-  bottom: 94px;
+  bottom: 97px;
   left: -16px;
   width: 36px;
   height: 2px;
