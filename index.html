@@ -206,8 +206,8 @@
 			<h2 class="products__heading">popular Products</h2>
 			<nav class="navs">
 				<ul class="navs__list">
-					<li class="navs__item navs__item--aktive">
-						<a class="navs__link" href="#" >All</a>
+					<li class="navs__items">
+						<a class="navs__links" href="#" >All</a>
 					</li>
 					<li class="navs__item">
 						<a class="navs__link" href="#" >Food</a>
@@ -229,7 +229,16 @@
 			<div class="products-inner">
 				<ul class="products-inner__list">
 					<li class="products-inner__item">
-						<img class="item__img" src="./images/blackberry-fruit.png" width="292" height="199" alt="photo blackberry fresh fruits" >
+						<img class="item__image" src="./images/blackberry-fruit.png" width="292" height="199" alt="photo blackberry fresh fruits" >	
+						<button class="item__item-button">
+									<img class="item__img" src="./images/blackarrow.png" width="15" height="15" alt="icon" >
+								</button>
+								<button class="item__item-buttos">
+									<img class="item__img" src="./images/iconserdsa.png" width="16" height="15" alt="icon" >
+								</button>
+								<button class="item__item-buttons">
+									<img class="item__img" src="./images/icon kubik.png" width="17" height="15" alt="icon" >
+								</button>
 						<div class="item__box">
 							<h4 class="item__box-heading">Blackberry Fruit</h4>
 							<span class="item__box-price">$10.00 - $20.00</span>
@@ -250,7 +259,7 @@
 								<img class="box-btn__img" src="./images/star.png" width="14" height="13" alt="icon star" >
 							</button>
 							</div>
-							<a class="products-inner__item-link" href="#" >shop now</a>
+							<a class="item__item-link" href="#" >shop now</a>
 						</div>
 					</li>
 					<li class="inner-item">
@@ -258,30 +267,34 @@
 						<img class="inner-item__img" src="./images/avocado-fruit.png" width="246" height="182" alt="photo fresh avocado cut in half" >
 						<div class="inner-item__box">
 							<h4 class="inner-item__box-heading"> Avocado Fruit</h4>
-							<span class="inner-item__box-price"><del>$30.00</del> - $15.00</span>
+							<span class="inner-item__box-price"><del class="inner-item__price">$30.00</del> - $15.00</span>
+		
+						<div class="inner-item__btn">
 							<button class="inner-item__box-btn">
 								<img class="box-btn__img" src="./images/star.png" width="14" height="13" alt="icon star" >
 							</button>
 							<button class="inner-item__box-btn">
-								<img class="box-btn__img" src="./images/star.png" width="14" height="13" alt="icon star" >
+									<img class="box-btn__img" src="./images/star.png" width="14" height="13" alt="icon star" >
 							</button>
 							<button class="inner-item__box-btn">
-								<img class="box-btn__img" src="./images/star.png" width="14" height="13" alt="icon star" >
+									<img class="box-btn__img" src="./images/star.png" width="14" height="13" alt="icon star" >
 							</button>
 							<button class="inner-item__box-btn">
-								<img class="box-btn__img" src="./images/star.png" width="14" height="13" alt="icon star" >
+									<img class="box-btn__img" src="./images/star.png" width="14" height="13" alt="icon star" >
 							</button>
 							<button class="inner-item__box-btn">
-								<img class="box-btn__img" src="" alt="icon star white" >
+									<img class="box-btn__img" src="./images/staricon.png" width="14" height="13" alt="icon star white" >
 							</button>
-							<a class="products-inner__item-link" href="#" >shop now</a>
+						</div>
+							<a class="item__item-link" href="#" >shop now</a>
 						</div>
 					</li>
 					<li class="inner-item">
-						<img class="inner-item__img" src="./images/kiwifruit-vitamin.png" width="283" height="283" alt="photo fresh kiwi one whole second cut in half " >
+						<img class="inner-item__kiwi" src="./images/kiwifruit-vitamin.png" width="283" height="283" alt="photo fresh kiwi one whole second cut in half " >
 						<div class="inner-item__box">
 							<h4 class="inner-item__box-heading">Kiwifruit Vitamin</h4>
 							<span class="inner-item__box-price">$17.00</span>
+						<div class="inner-item__btn">
 							<button class="inner-item__box-btn">
 								<img class="box-btn__img" src="./images/star.png" width="14" height="13" alt="icon star"  >
 							</button>
@@ -297,15 +310,17 @@
 							<button class="inner-item__box-btn">
 								<img class="box-btn__img" src="./images/star.png" width="14" height="13" alt="icon star"  >
 							</button>
-							<a class="products-inner__item-link" href="#" >shop now</a>
+						</div>
+							<a class="item__item-link" href="#" >shop now</a>
 						</div>
 					</li>
 					<li class="inner-item">
-						<img class="inner-item__img" src="./images/persian-lime.png" width="280" height="163" alt="photo fresh lemon lime one whole second cut in half  " >
+						<img class="inner-item__lime" src="./images/persian-lime.png" width="280" height="163" alt="photo fresh lemon lime one whole second cut in half  " >
 						<div class="inner-item__box">
 							<h4 class="inner-item__box-heading">Lemon</h4>
 							<span class="inner-item__box-price">$7.00</span>
-							<button class="inner-item__box-btn">
+							<div class="inner-item__btn">
+								<button class="inner-item__box-btn">
 								<img class="box-btn__img" src="./images/star.png" width="14" height="13" alt="icon star"  >
 							</button>
 							<button class="inner-item__box-btn">
@@ -320,15 +335,17 @@
 							<button class="inner-item__box-btn">
 								<img class="box-btn__img" src="./images/star.png" width="14" height="13" alt="icon star"  >
 							</button>
-							<a class="products-inner__item-link" href="#" >shop now</a>
+						</div>
+							<a class="item__item-link" href="#" >shop now</a>
 						</div>
 					</li>
 					<li class="inner-item">
-						<img class="inner-item__img" src="./images/red-onion.png" width="168" height="190" alt="photo fresh purple onion cut in half " >
+						<img class="inner-item__onion" src="./images/red-onion.png" width="168" height="190" alt="photo fresh purple onion cut in half " >
 						<div class="inner-item__box">
 							<h4 class="inner-item__box-heading">Purple onion</h4>
 							<span class="inner-item__box-price">$30.00</span>
-							<button class="inner-item__box-btn">
+							<div class="inner-item__btn">
+								<button class="inner-item__box-btn">
 								<img class="box-btn__img" src="./images/star.png" width="14" height="13" alt="icon star" >
 							</button>
 							<button class="inner-item__box-btn">
@@ -343,15 +360,17 @@
 							<button class="inner-item__box-btn">
 								<img class="box-btn__img" src="./images/star.png" width="14" height="13" alt="icon star" >
 							</button>
-							<a class="products-inner__item-link" href="#" >shop now</a>
+						</div>
+							<a class="item__item-link" href="#" >shop now</a>
 						</div>
 					</li>
 					<li class="inner-item">
-						<img class="inner-item__img" src="./images/bajaj-almond.png" width="290" height="290" alt="photo two unpeeled and two peeled almonds with pieces " >
+						<img class="inner-item__almn" src="./images/bajaj-almond.png" width="290" height="290" alt="photo two unpeeled and two peeled almonds with pieces " >
 						<div class="inner-item__box">
 							<h4 class="inner-item__box-heading">Brown Almonds</h4>
 							<span class="inner-item__box-price">$11.00</span>
-							<button class="inner-item__box-btn">
+							<div class="inner-item__btn">
+								<button class="inner-item__box-btn">
 								<img class="box-btn__img" src="./images/star.png" width="14" height="13" alt="icon star" >
 							</button>
 							<button class="inner-item__box-btn">
@@ -366,7 +385,8 @@
 							<button class="inner-item__box-btn">
 								<img class="box-btn__img" src="./images/star.png" width="14" height="13" alt="icon star" >
 							</button>
-							<a class="products-inner__item-link" href="#" >shop now</a>
+						</div>
+							<a class="item__item-link" href="#" >shop now</a>
 						</div>
 					</li>
 				</ul>
@@ -390,7 +410,108 @@
 			</div>
 		</div><!--- End of wrap-right -->
 	</div><!--- End of discount -->
+		<div class="vegcard">
+			<div class="container">
+				<h2 class="vegcard__heading">Featured Products</h2>
+				<div class="vegcard-inner">
+					<ul class="vegcard-inner__list">
+							<li class="vegcard-inner__items">
+								<button class="items__button">
+									<img class="items__img" src="./images/blackarrow.png" width="15" height="15" alt="icon" >
+								</button>
+								<button class="items__buttos">
+									<img class="items__img" src="./images/iconserdsa.png" width="16" height="15" alt="icon" >
+								</button>
+								<button class="items__buttons">
+									<img class="items__img" src="./images/icon kubik.png" width="17" height="15" alt="icon" >
+								</button>
+						<img class="vegcard-inner__items-img" src="./images/bell-pepper.png" width="160" height="200" alt="photo fresh red bell pepper " >
+						<div class="items__box">
+							<h4 class="items__box-heading">Red Pepper</h4>
+							<span class="items__box-price">$10.00 - $20.00</span>
+							<div class="items__btn">
+							<button class="items__box-btn">
+								<img class="box-btn__img" src="./images/star.png" width="14" height="13" alt="icon star" >
+							</button>
+							<button class="items__box-btn">
+								<img class="box-btn__img" src="./images/star.png" width="14" height="13" alt="icon star" >
+							</button>
+							<button class="items__box-btn">
+								<img class="box-btn__img" src="./images/star.png" width="14" height="13" alt="icon star" >
+							</button>
+							<button class="items__box-btn">
+								<img class="box-btn__img" src="./images/star.png" width="14" height="13" alt="icon star" >
+							</button>
+							<button class="items__box-btn">
+								<img class="box-btn__img" src="./images/star.png" width="14" height="13" alt="icon star" >
+							</button>
+							</div>
+							<a class="items__link" href="#" >shop now</a>
+						</div>
+					</li><!--- End of card -->
 
+					<li class="inner-item">
+						<span class="inner-item__sale">Off 50%</span>
+						<img class="inner-item__cabb" src="./images/cabbage.png" width="212" height="210" alt="photo fresh cabbage" >
+						<div class="inner-item__box">
+							<h4 class="inner-item__box-heading">Cabbage</h4>
+							<span class="inner-item__box-price"><del class="inner-item__price">$30.00</del> - $15.00</span>
+		
+						<div class="inner-item__btn">
+							<button class="inner-item__box-btn">
+								<img class="box-btn__img" src="./images/star.png" width="14" height="13" alt="icon star" >
+							</button>
+							<button class="inner-item__box-btn">
+									<img class="box-btn__img" src="./images/star.png" width="14" height="13" alt="icon star" >
+							</button>
+							<button class="inner-item__box-btn">
+									<img class="box-btn__img" src="./images/star.png" width="14" height="13" alt="icon star" >
+							</button>
+							<button class="inner-item__box-btn">
+									<img class="box-btn__img" src="./images/star.png" width="14" height="13" alt="icon star" >
+							</button>
+							<button class="inner-item__box-btn">
+									<img class="box-btn__img" src="./images/staricon.png" width="14" height="13" alt="icon star white" >
+							</button>
+						</div>
+							<a class="inner-item__link" href="#" >shop now</a>
+						</div>
+					</li>
+					<li class="inner-item">
+						<img class="inner-item__tomat" src="./images/tomato.png" width="201" height="197" alt="photo fresh kiwi one whole second cut in half " >
+						<div class="inner-item__box">
+							<h4 class="inner-item__box-heading">Tomato</h4>
+							<span class="inner-item__box-price">$15.00</span>
+						<div class="inner-item__btn">
+							<button class="inner-item__box-btn">
+								<img class="box-btn__img" src="./images/star.png" width="14" height="13" alt="icon star"  >
+							</button>
+							<button class="inner-item__box-btn">
+								<img class="box-btn__img" src="./images/star.png" width="14" height="13" alt="icon star"  >
+							</button>
+							<button class="inner-item__box-btn">
+								<img class="box-btn__img" src="./images/star.png" width="14" height="13" alt="icon star"  >
+							</button>
+							<button class="inner-item__box-btn">
+								<img class="box-btn__img" src="./images/star.png" width="14" height="13" alt="icon star"  >
+							</button>
+							<button class="inner-item__box-btn">
+								<img class="box-btn__img" src="./images/star.png" width="14" height="13" alt="icon star"  >
+							</button>
+						</div>
+							<a class="inner-item__link" href="#" >shop now</a>
+						</div>
+					</li>
+					</ul>
+					<button class="vegcard-inner__btn">
+						<img class="vegcard-inner__img" src="./images/arrow-white.png" width="15" height="10" alt="arrow icon" >
+					</button>
+					<button class="vegcard-inner__bttn">
+						<img class="vegcard-inner__img" src="./images/green-arrow.png" width="15" height="10" alt="arrow icon" >
+					</button>
+				</div>
+			</div><!--- End of container -->
+		</div><!--- End of vegcard -->
 	
 	<main class="main"></main>
 	<footer class="footer"></footer>

@@ -60,6 +60,9 @@
   
 }
 
+.blockquote{
+  position: relative;
+}
 
 .blockquote__text {
   width: 480px;
@@ -71,16 +74,15 @@
   font-size: 16px;
   line-height: 140%;
   color: #AAAAAA;
-  position: relative;
 
 }
 
 .blockquote__text::after {
   content: "";
   position: absolute;
-  bottom: 0;
-  right: 50%;
-  transform: translateX(50%);
+  bottom: 70px;
+  right: 31%;
+  transform: translateX(56%);
   width: 28px;
   height: 20px;
   display: inline-block;
@@ -93,7 +95,7 @@
 
 .blockquote__line {
   position: absolute;
-  bottom: 97px;
+  bottom: 93px;
   left: -16px;
   width: 36px;
   height: 2px;

@@ -1,3 +1,4 @@
+
 .products {
   &__heading {
     margin: {
@@ -9,9 +10,8 @@
       style: normal;
       weight: 600;
       size: 60px;
+      line-height: 150%;
     }
-
-    line-height: 150%;
 
     text: {
       align: center;
@@ -20,13 +20,14 @@
 
     color: #191D28;
   }
+
   .navs{
     &__list{
         display:flex;
         align-items: center;
         justify-content:center;
         list-style-type: none;
-        margin:{
+        margin: {
           top: 42px;
         }
 
@@ -54,46 +55,114 @@
         color: #000000;
       }
 
-  }
+       &__item:hover{
+         transition: all 300ms ease;
+          background: #76A713;
+          
+      }
 
-  .products-inner{
+      &__link:hover{
+        color: #ffffff;
+      }
+
+      &__items {
+        width: 50px;
+        height: 30px;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #76A713;
+
+      }
+
+      &__links {
+        text-decoration: none;
+
+        font: {
+          family: "Gilroy";
+          style: normal;
+          weight: 500;
+          size: 14px;
+        }
+
+        line-height: 150%;
+        color: #ffffff;
+      }
+      
+    }
+    
+    .products-inner{
       margin-top:30px;
 
       &__list{
         list-style-type: none;
         display: flex;
         flex-wrap: wrap;
-        align-items:center;
-        justify-content: center;
-
       }
 
       &__item{
-        width: 370px;
-        height: 553px;
-box-shadow: 0px 0px 0px 3px rgba(118, 167, 19, 1) inset;
-      // box-shadow: 0px 20px 50px 2px rgba(0, 0, 0, 0.1);
-          
-
-          
-  
+          position: relative;
+          width: 370px;
+          height: 553px;
+          margin-right: 20px;
+          box-shadow: 0px 0px 0px 3px rgba(118, 167, 19, 1) inset;
+    
       }
 
-      .item{
-        &__img{
-        margin:{
-          top:70px;
-          right: 39px;
-          left: 39px;
-        } 
-      }
+      .item {
+         
+       &__image {
+         margin: {
+           top: 70px;
+           right: 39px;
+           left: 45px;
+           bottom: 71px;
+         }
+        }
+      
+        &__item-button {
+          position: absolute;
+          left: 309px;
+          top: 22px;
+          width: 40px;
+          height: 40px;
+          border: none;
+          border-radius: 50%;
+          cursor: pointer;
+          background-color: #F5F5F5;
+        }
 
-        &__box{
+        &__item-buttos {
+          position: absolute;
+          left: 309PX;
+          top: 72px;
+          width: 40px;
+          height: 40px;
+          border: none;
+          border-radius: 50%;
+          cursor: pointer;
+          background-color: #F5F5F5;
+        }
+
+        &__item-buttons {
+          position: absolute;
+          left: 309PX;
+          top: 121px;
+          width: 40px;
+          height: 40px;
+          border: none;
+          border-radius: 50%;
+          cursor: pointer;
+          background-color: #F5F5F5;
+        }
+
+        &__box {
           padding: {
             top: 21px;
-            bottom:30px;
+            bottom: 34px;
           }
-          margin-top: 76px;
+
           display: flex;
           flex-direction: column;
           align-items:center;
@@ -101,43 +170,53 @@ box-shadow: 0px 0px 0px 3px rgba(118, 167, 19, 1) inset;
           background: #F8F8F8;
         }
 
-        &__box-heading{
-            font: {
-              family: "Oswald";
-              style: norma;
-              weight:500px;
-              size: 24px;
-              line-height: 150%;
-
-            }
-        }
-
-        &__box-price{
-            margin-top: 9px;
-            font: {
-              family: "Oswald";
-              style: norma;
-              weight: 600px;
-              size: 16px;
-              line-height: 150%;
-            }
-            color: #76A713;
-        }
-
-        &__btn{
+        &__btn {
           display: flex;
+        }
+
+        &__box-heading {
+          font: {
+            family: "Oswald";
+            style: norma;
+            weight: 500px;
+            size: 24px;
+            line-height: 150%;
+
+          }
+        }
+
+        &__box-price {
+          margin-top: 9px;
+
+          font: {
+            family: "Oswald";
+            style: norma;
+            weight: 600px;
+            size: 16px;
+            line-height: 150%;
+          }
+
+          color: #76A713;
+        }
+
       
+
+
+
+        &__btn {
+          display: flex;
+
         }
 
-        &__box-btn{
+        &__box-btn {
           margin-top: 10px;
-          border:none;
+          border: none;
           cursor: pointer;
-          background-color: #ffffff;
+          background: #F8F8F8;
         }
-      }
 
-      &__item-link{
+
+        &__item-link {
           width: 120px;
           height: 40px;
           display: flex;
@@ -145,6 +224,7 @@ box-shadow: 0px 0px 0px 3px rgba(118, 167, 19, 1) inset;
           justify-content: center;
           border: none;
           background-color: #76A713;
+
           /* button */
           font: {
             family: Gilroy;
@@ -160,15 +240,177 @@ box-shadow: 0px 0px 0px 3px rgba(118, 167, 19, 1) inset;
           cursor: pointer;
           color: #FFFFFF;
           /* content */
+        }
+
+        &__item-link:hover {
+          background-color: #ffffff;
+          color: #76A713;
+          transition: all 300ms ease;
+        }
+
       }
+      
 
-
-    }
+    
+      
+      
 
       
 
 
+
+      
+    
+    
+      .inner-item{
+           width: 370px;
+           height: 553px;
+           margin-right: 20px;
+           margin-bottom: 30px;
+           border: 1px solid #DDDDDD;
+
+        &__sale{
+          width: 60px;
+          height: 25px;
+          display: block;
+          margin-top: 15px;
+          padding-top: 4px;
+          text-align: center;
+          font: {
+            family:"Gilroy";
+            style:normal;
+            weight:500;
+            size: 11px;
+          }
+          line-height: 150%;
+          color:#ffffff;
+          background: #FF6600;
+        }
+
+        &__img {
+          margin: {
+            top: 50px;
+            right: 62px;
+            bottom:72px;
+            left: 62px;
+          }
+
+        }
+
+        &__box {
+          padding: {
+            top: 21px;
+            bottom: 34px;
+          }
+
+          display: flex;
+          flex-direction: column;
+          align-items:center;
+          justify-content: center;
+          background: #F8F8F8;
+        }
+
+        &__btn {
+          display: flex;
+        }
+
+        &__box-heading {
+          font: {
+            family: "Oswald";
+            style: norma;
+            weight: 400px;
+            size: 24px;
+            line-height: 150%;
+          }
+        }
+
+        &__box-price {
+          margin-top: 9px;
+
+          font: {
+            family: "Oswald";
+            style: norma;
+            weight: 600px;
+            size: 16px;
+            line-height: 150%;
+          }
+
+          color: #76A713;
+        }
+          &__price {
+            font: {
+              family: "Gilroy";
+              style: normal;
+              weight: 500;
+              size: 14px;
+            }
+
+            color: #AAAAAA;
+          }
+        &__box-btn {
+          margin-top: 10px;
+          border: none;
+          cursor: pointer;
+          background: #F8F8F8;
+        }
+
+        &__kiwi {
+          margin: {
+           top: 32px;
+           right: 43px;
+           left: 44px;
+           bottom: 28px;
+          }
+        }
+      
+
+        &__lime {
+          margin: {
+            top: 88px;
+            right: 45px;
+            left: 45px;
+            bottom: 89px;
+          }
+        }
+
+        &__onion {
+          margin: {
+            top: 74px;
+            right: 101px;
+            left: 101px;
+            bottom: 76px;
+          }
+
+        }
+
+        &__almn {
+          margin: {
+            top: 25px;
+            right: 40px;
+            left: 40px;
+            bottom: 25px;
+         }
+
+        }
+      }
+
+    .inner-item:last-child {
+      margin-right: 0;
+    }
+
+    
   }
+
+}
+  
+  
+
+
+
+   
+
+
+  
 
 
 
