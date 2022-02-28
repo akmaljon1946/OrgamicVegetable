@@ -10,6 +10,7 @@
 .wrap-container {
   position: relative;
   max-width: 1270px;
+  padding: 0 15px;
   margin: auto;
   background-image: url(../images/textorgamic.png);
   background-repeat: no-repeat;
@@ -92,10 +93,11 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
+  margin-right: 15px;
+  margin-left: 15px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-right: 10px;
 
 }
 

@@ -499,7 +499,7 @@ body {
 }
 
 .header-top__right-lang {
-  width: 54px;
+  width: 58px;
   border: none;
   appearance: none;
   -moz-appearance: none;
@@ -513,6 +513,7 @@ body {
   font-size: 13px;
   line-height: 15px;
   color: #000000;
+  background-color: transparent;
 }
 
 .header-top__right-list {
@@ -677,6 +678,7 @@ body {
 .wrap-container {
   position: relative;
   max-width: 1270px;
+  padding: 0 15px;
   margin: auto;
   background-image: url(../images/textorgamic.png);
   background-repeat: no-repeat;
@@ -759,6 +761,8 @@ body {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  margin-right: 15px;
+  margin-left: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -768,7 +772,6 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-right: 10px;
 }
 
 .hero__bottom-item {
@@ -1408,6 +1411,7 @@ body {
 }
 
 .products .products-inner {
+  max-width: 1170px;
   margin-top: 30px;
 }
 
@@ -1695,6 +1699,7 @@ body {
 }
 
 .vegcard .vegcard-inner {
+  max-width: 1170px;
   position: relative;
 }
 
