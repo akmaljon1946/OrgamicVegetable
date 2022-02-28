@@ -1,12 +1,25 @@
 .testimonials {
 
-  background: {
-    linear-gradient: (to bottom right,30% rgba(118, 167, 19, 0.3));
-  }
+  margin-top: -100px;
+
+    &__hug-container {
+        max-width: 1420px;
+        height: 740px;
+        margin:0 auto;
+        background: {
+          image: url(../images/BGlightgreen.svg), url(../images/bgtestimoboy.png);
+          repeat: no-repeat;
+          size: 485px 740px, 662px 540px;
+          position: right bottom, left bottom;
+
+        }
+    }
+
+  
 
   .testimonials-inner {
     display: flex;
-    margin-top: 170px;
+    // margin-top: 170px;
 
     &__img{
       margin-top: 29px;
@@ -14,11 +27,13 @@
 
     .blockquote {
       margin: {
-        // top: 170px;
+        top: 280px;
         right:115px ;
         left: 53px;
         bottom: 70px;
+        
       }
+      background-color: #ffffff;
     }
 
 

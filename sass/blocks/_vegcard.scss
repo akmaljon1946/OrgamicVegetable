@@ -40,6 +40,8 @@
 
         }
 
+
+
         &__items-img{
           margin: 73px 106px;
         }
@@ -312,6 +314,14 @@
     .inner-item:last-child{
           margin-right: 0;
     }
+
+       
+    .inner-item:hover { 
+      //  border:none;
+       box-shadow: 0px 0px 0px 3px rgba(118, 167, 19, 1) inset;
+
+      }
+    
     
       &__bttn {
         position: absolute;

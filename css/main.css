@@ -1384,6 +1384,7 @@ body {
 .products .navs__items {
   width: 50px;
   height: 30px;
+  margin-right: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1473,7 +1474,7 @@ body {
 
 .products .products-inner .item__box {
   padding-top: 21px;
-  padding-bottom: 34px;
+  padding-bottom: 35px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1677,8 +1678,9 @@ body {
   margin-bottom: 25px;
 }
 
-.products .products-inner .inner-item:last-child {
-  margin-right: 0;
+.products .products-inner .inner-item:hover {
+  -webkit-box-shadow: 0px 0px 0px 3px #76a713 inset;
+          box-shadow: 0px 0px 0px 3px #76a713 inset;
 }
 
 .vegcard__heading {
@@ -1986,6 +1988,11 @@ body {
   margin-right: 0;
 }
 
+.vegcard .vegcard-inner .inner-item:hover {
+  -webkit-box-shadow: 0px 0px 0px 3px #76a713 inset;
+          box-shadow: 0px 0px 0px 3px #76a713 inset;
+}
+
 .vegcard .vegcard-inner__bttn {
   position: absolute;
   right: 538px;
@@ -2057,14 +2064,23 @@ body {
 }
 
 .testimonials {
-  background-linear-gradient: to bottom right, 30% rgba(118, 167, 19, 0.3);
+  margin-top: -100px;
+}
+
+.testimonials__hug-container {
+  max-width: 1420px;
+  height: 740px;
+  margin: 0 auto;
+  background-image: url(../images/BGlightgreen.svg), url(../images/bgtestimoboy.png);
+  background-repeat: no-repeat;
+  background-size: 485px 740px, 662px 540px;
+  background-position: right bottom, left bottom;
 }
 
 .testimonials .testimonials-inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 170px;
 }
 
 .testimonials .testimonials-inner__img {
@@ -2072,8 +2088,10 @@ body {
 }
 
 .testimonials .testimonials-inner .blockquote {
+  margin-top: 280px;
   margin-right: 115px;
   margin-left: 53px;
   margin-bottom: 70px;
+  background-color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */

@@ -68,7 +68,7 @@
       &__items {
         width: 50px;
         height: 30px;
-        // margin-right: 10px;
+        margin-right: 10px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -111,6 +111,7 @@
     
       }
 
+    
       .item {
          
        &__image {
@@ -161,7 +162,7 @@
         &__box {
           padding: {
             top: 21px;
-            bottom: 34px;
+            bottom: 35px;
           }
 
           display: flex;
@@ -394,9 +395,10 @@
         }
       }
 
-    .inner-item:last-child {
-      margin-right: 0;
-    }
+      .inner-item:hover {
+        box-shadow: 0px 0px 0px 3px rgba(118, 167, 19, 1) inset;
+
+      }
 
     
   }
