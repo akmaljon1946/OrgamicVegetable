@@ -1,0 +1,72 @@
+.statistics {
+  width: 1170px;
+  height: 291px;
+  margin-top: 100px;
+      padding: {
+        top: 90px;
+        right: 45px;
+        left: 56px;
+        bottom: 95px;
+      }
+  background: {
+    image: url(../images/BGgreen.png);
+    repeat:no-repeat;
+    size:contain;
+    
+  }
+  
+  &__list {
+
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  &__item{
+    width: 208px;
+  }
+
+  &__heading{
+    font: {
+      family:"Oswald";
+      style:normal;
+      weight:700;
+      size:60px;
+    }
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  &__text{
+    text: {
+      transform: capitalize;
+      align:center;
+
+    }
+
+    font: {
+      family:"Gilroy";
+      style:normal;
+      weight:500;
+      size:20px
+    }
+
+    color:#ffffff;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

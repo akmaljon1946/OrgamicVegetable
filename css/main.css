@@ -1384,7 +1384,6 @@ body {
 .products .navs__items {
   width: 50px;
   height: 30px;
-  margin-right: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1418,13 +1417,13 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  gap: 30px;
 }
 
 .products .products-inner__item {
   position: relative;
   width: 370px;
   height: 553px;
-  margin-right: 20px;
   -webkit-box-shadow: 0px 0px 0px 3px #76a713 inset;
           box-shadow: 0px 0px 0px 3px #76a713 inset;
 }
@@ -1566,8 +1565,6 @@ body {
 .products .products-inner .inner-item {
   width: 370px;
   height: 553px;
-  margin-right: 20px;
-  margin-bottom: 30px;
   border: 1px solid #DDDDDD;
 }
 
@@ -2007,5 +2004,76 @@ body {
   border: 1px solid #76A713;
   background: #76A713;
   cursor: pointer;
+}
+
+.statistics {
+  width: 1170px;
+  height: 291px;
+  margin-top: 100px;
+  padding-top: 90px;
+  padding-right: 45px;
+  padding-left: 56px;
+  padding-bottom: 95px;
+  background-image: url(../images/BGgreen.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.statistics__list {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.statistics__item {
+  width: 208px;
+}
+
+.statistics__heading {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.statistics__text {
+  text-transform: capitalize;
+  text-align: center;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.testimonials {
+  background-linear-gradient: to bottom right, 30% rgba(118, 167, 19, 0.3);
+}
+
+.testimonials .testimonials-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 170px;
+}
+
+.testimonials .testimonials-inner__img {
+  margin-top: 29px;
+}
+
+.testimonials .testimonials-inner .blockquote {
+  margin-right: 115px;
+  margin-left: 53px;
+  margin-bottom: 70px;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,48 @@
+.testimonials {
+
+  background: {
+    linear-gradient: (to bottom right,30% rgba(118, 167, 19, 0.3));
+  }
+
+  .testimonials-inner {
+    display: flex;
+    margin-top: 170px;
+
+    &__img{
+      margin-top: 29px;
+    }
+
+    .blockquote {
+      margin: {
+        // top: 170px;
+        right:115px ;
+        left: 53px;
+        bottom: 70px;
+      }
+    }
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
