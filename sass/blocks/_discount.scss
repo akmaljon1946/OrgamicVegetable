@@ -15,7 +15,7 @@
   align-items: flex-end;
   padding: 46px 39px 47px 0px;
   background-color: #76A713;
-  background-image: url(../images/organic-food-broccoli-cauliflower.png);
+  background-image: url(../images/broccoli-cauliflower.png);
   background-repeat: no-repeat;
   background-size: contain;
 
@@ -50,7 +50,7 @@
   align-items: center;
   justify-content: center;
   margin-top: 29px;
-  border: 1px solid #FF6600;
+  border:none;
   background-color: #FF6600;
   /* button */
   font-family: Gilroy;
@@ -65,9 +65,10 @@
 }
 
 .wrap-left__btn:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+    background-color: #ffffff;
+    color:#ff6600;
+    transition: all 300ms ease;
 }
-
 /* End of wrap-left */
 .discount__wrap-right {
   width: 585px;
@@ -76,7 +77,7 @@
   padding: 46px 40px 47px 0px;
   align-items: flex-end;
   background-color: #FF6600;
-  background-image: url(../images/fresh-fruits.png);
+  background-image: url(../images/fruit-ananas.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -88,7 +89,7 @@
   align-items: center;
   justify-content: center;
   margin-top: 29px;
-  border: 1px solid #76A713;
+  border: none;
   background-color: #76A713;
   /* button */
   font-family: Gilroy;
@@ -103,7 +104,25 @@
 }
 
 .wrap-right__btn:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+    background-color: #ffffff;
+    color:#76A713;
+    transition: all 300ms ease;
 }
-
 /* End of wrap-right */
+
+// retina
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+
+  .discount__wrap-left{
+    background-image: url(../images/broccoli-cauliflower@2x.png);
+  }
+
+  .discount__wrap-right{
+    background-image: url(../images/fruit-ananas@2x.png);
+  }
+}

@@ -72,7 +72,9 @@
 }
 
 .section__inner-link:hover {
-  background-color: #95c92f;
+    background-color: #ffffff;
+    color:#76A713;
+    transition: all 300ms ease;
 }
 
 .section__inner-item {

@@ -7,7 +7,7 @@
         height: 740px;
         margin:0 auto;
         background: {
-          image: url(../images/BGlightgreen.svg), url(../images/bgtestimoboy.png);
+          image: url(../images/BGlightgreen.svg), url(../images/testimonials.png);
           repeat: no-repeat;
           size: 485px 740px, 662px 540px;
           position: right bottom, left bottom;
@@ -61,3 +61,20 @@
 
 
 }
+
+
+// retina
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+
+  .testimonials__hug-container{
+    background-image: url(../images/testimonials@2x.png);
+  }
+}
+
+
+
