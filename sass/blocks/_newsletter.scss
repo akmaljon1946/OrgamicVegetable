@@ -1,0 +1,159 @@
+.newsletter{
+  width: 1170px;
+  height: 250px;
+  display: flex;
+  justify-content: flex-end;
+  background: #76A713;
+  background: {
+    image: url(../images/fruit-salad.png),
+          url(../images/arrowsnike.png);
+    repeat: no-repeat;
+    size: auto;
+    position: -4px -72px ,435px 140px;
+  }
+
+
+
+  &__box{
+    position:relative;
+    top: 20px;
+    left: 40px;
+    margin: {
+      top: 48px;
+      right: 111px;
+    }
+    height: 202px;
+
+  }
+
+  &__box-title{
+    margin-bottom: 24px;
+    font: {
+      family: Oswald;
+      style: normal;
+      weight: 500;
+      size: 60px;
+    }
+    line-height: 89px;
+    color: #FFFFFF;
+  }
+
+  .form{
+      width: 370px;
+      margin-top: 27px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #9AD523;
+    
+    
+    &__email{
+      width: 370px;
+      border:none;
+      color:#FFFFFF;
+      background: #76A713;
+    }
+
+
+    
+    &__button{
+      position: absolute;
+      right: -3px;
+      top: 105px;
+      width: 150px;
+      height: 40px;
+      border:none;
+      background: #FF6600;
+      font: {
+        family: Gilroy;
+        style: normal;
+        weight: bold;
+        size: 16px;
+      }
+
+      cursor: pointer;
+      line-height: 19px;
+      color: #FFFFFF;
+    }
+
+    &__button:hover{
+      background-color: #ffffff;
+      color: #FF6600;
+      transition: all 350ms ease;
+
+    }
+
+  }
+  
+}
+
+    
+    
+   
+
+// retina
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+
+.newsletter{
+  background: {
+    image: url(../images/fruit-salad@2x.png);
+  }
+}
+
+}
+
+
+
+
+// placeholder-normalize
+    ::-webkit-input-placeholder {
+      font-family: Gilroy;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    :-moz-placeholder {
+      font-family: Gilroy;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    ::-moz-placeholder {
+      font-family: Gilroy;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    :-ms-input-placeholder {
+      font-family: Gilroy;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
