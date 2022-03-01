@@ -3,6 +3,7 @@
   margin-top: -100px;
 
     &__hug-container {
+      position: relative;
         max-width: 1420px;
         height: 740px;
         margin:0 auto;
@@ -18,46 +19,112 @@
   
 
   .testimonials-inner {
-    display: flex;
-    // margin-top: 170px;
 
     &__img{
       margin-top: 29px;
     }
 
     .blockquote {
-      margin: {
-        top: 280px;
-        right:115px ;
-        left: 53px;
-        bottom: 70px;
-        
+      position: absolute;
+      right:125px ;
+      top:255px ;
+      padding: {
+        top: 53px;
+        right: 33px;
+        left: 37px;
+        bottom: 50px;
       }
+        
+      box-shadow: 0px 9px 40px -7px
+       rgba(34, 60, 80, 0.2);
+
       background-color: #ffffff;
+
     }
 
+    .quots {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      &__text {
+        width: 472px;
+        font: {
+          family: Gilroy;
+          style: italic;
+          weight: 500;
+          size: 16px;
+      }
+        line-height: 170%;
+        color: #AAAAAA;
+      }
 
+      &__img{
+        margin-top: 29px;
+        margin-bottom: 8px;
+      }
 
+      &__heading{
+        font: {
+          family:"Oswald";
+          style: normal;
+          weight: 500;
+          size: 16px;
+        }
+        line-height: 170%;
+        color: #000000;
+      }
+
+      &__job{
+        font: {
+          family: Gilroy;
+          style: normal;
+          weight: 500;
+          size: 11px;
+
+        }
+        line-height: 170%;
+        color: #888888;
+      }
+
+      &__icon{
+        margin-top: 6px;
+      }
+
+        &__circle {
+          display: flex;
+          margin-top: 30px;
+        }
+
+        &__circle-white {
+          width: 8px;
+          height: 8px;
+          border: 1px solid #DDDDDD;
+          border-radius: 50%;
+          cursor: pointer;
+        }
+
+        &__circle-white:hover{
+          background-color: #76A713;
+        }
+
+        &__circle-green{
+          width: 8px;
+          height: 8px;
+          margin: {
+            left: 7px;
+            right: 7px;
+          }
+          border: 1px solid #DDDDDD;
+          border-radius: 50%;
+          cursor: pointer;
+          background-color: #76A713;
+        }
+
+    }
 
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
