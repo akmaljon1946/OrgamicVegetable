@@ -1,0 +1,51 @@
+.footer{
+  background-color: #191D28;
+  
+  &__top{
+    margin-top: 80px;
+    .left{
+      display: flex;
+      &__logo{
+
+      }
+
+      &__logo-text{
+        width: 280px;
+        margin-top: 25px;
+        font: {
+          family:Gilroy;
+          style: normal;
+          weight: 500;
+          size: 16px;
+
+        }
+        line-height: 140%;
+        color: #CCCCCC;
+      }
+      
+
+
+    }
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

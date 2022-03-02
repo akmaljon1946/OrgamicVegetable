@@ -1,15 +1,22 @@
 .newsletter{
+  position: relative;
   width: 1170px;
   height: 250px;
   display: flex;
   justify-content: flex-end;
   background: #76A713;
   background: {
-    image: url(../images/fruit-salad.png),
-          url(../images/arrowsnike.png);
+    image:
+    url(../images/arrowsnike.png);
     repeat: no-repeat;
     size: auto;
-    position: -4px -72px ,435px 140px;
+    position:435px 140px;
+  }
+
+  &__img{
+    position: absolute;
+    left: -60px;
+    bottom: -80px;
   }
 
 
