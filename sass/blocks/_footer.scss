@@ -1,13 +1,15 @@
 .footer{
   background-color: #191D28;
+  margin-top: -143px;
   
   &__top{
-    margin-top: 80px;
+    margin-bottom: 61px;
+    margin-top: 220px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
     .left{
       display: flex;
-      &__logo{
-
-      }
 
       &__logo-text{
         width: 280px;
@@ -22,30 +24,261 @@
         line-height: 140%;
         color: #CCCCCC;
       }
+
+      &__list{
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        
+        
+      }
+
+      &__item{
+        margin-right: 30px;
+        margin-top: 30px;
+      }
       
+      .quick{
+        
 
+        &__heading{
+          margin: {
+            left: 14px;
+            top: 12px;
+            bottom: 33px;
+          }
 
+          font: {
+            family: Oswald;
+            style: normal;
+            weight: 600;
+            size: 24px;
+          }
+
+          line-height: 140%;
+          color: #FFFFFF;
+        }
+      
+      &__list {
+        margin-left: 29px;
+        color: #76A713;
+
+      }
+
+      &__item{
+        margin-bottom: 25px;
+      }
+
+      &__link{
+        font: {
+          family: Gilroy;
+          style: normal;
+          weight: 500;
+          size: 16px;
+
+        } 
+        line-height: 140%;
+        text-decoration: none;
+        color: #ffffff;
+      }
+      
+      &__link--active{
+        color: #76A713;
+      }
+      
+      &__link:hover{
+         color: #76A713;
+      }
+
+    }
+
+  }
+
+  .right{
+    color: #ffffff;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-top: 24px;
+
+    &__post{
+      margin-right: 31px;
+    }
+
+    &__heading{
+       @include rfont;
+
+      
+      line-height: 130%;
+      margin-bottom: 33px;
+      color: #FFFFFF;
+    }
+
+    &__inner{
+      width: 270px;
+      display: flex;
+      margin-bottom: 15px;
+    }
+
+    &__inner-img{
+      margin: {
+        right: 15px;
+      }
+    }
+
+    &__inner-item{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+    }
+    
+
+    &__inner-title{
+      font: {
+        family: Oswald;
+        style: normal;
+        weight: 500;
+        size: 18px;
+
+      }
+      line-height: 130%;
+      color: #FFFFFF;
+    }
+
+    &__inner-text{
+      font: {
+        family: Gilroy;
+        style: normal;
+        weight: normal;
+        size: 13px;
+      }
+
+      line-height: 15px;
+      color: #CCCCCC;
+
+    }
+
+    &__info{
+      position: relative;
+      width: 213px;
+      margin-bottom: 50px;
+    }
+
+    &__info-head{
+      @include rfont;
+      
     }
 
 
 
+    &__info-adress{
+      @include info;
+      margin-left: 22px;
+    
+    }
+
+    &__info-adress::before{
+      content: "";
+      background-image: url(../images/iconlocation.png);
+      width: 13px;
+      height: 15px;
+      display: block;
+      position: absolute;
+      left: 1px;
+      top: 71px;
 
 
+    }
+
+    &__info-link {
+      text-decoration: none;
+      margin-bottom: 21px;
+      margin-left: 22px;
+      color: #CCCCCC;
+    }
+
+
+       &__info-link::before {
+         content: "";
+         background-image: url(../images/iconphone.png);
+         width: 13px;
+         height: 15px;
+         display: block;
+         position: absolute;
+         left: 1px;
+         top: 137px;
+
+       }
+
+    &__info-heading{
+      font: {
+        family: Oswald;
+        style: normal;
+        weight: 500;
+        size: 18px;
+      }
+      margin-top: 21px;
+      margin-bottom: 15px;
+      line-height: 140%;
+      color: #FFFFFF;
+    }
+
+    &__info-time{
+      @include info;
+    }
+      
 
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
+
+&__bottom{
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+  &__bottom-text{
+    font: {
+      family: Gilroy;
+      style: normal;
+      weight: 500;
+      size: 16px;
+    }
+
+    line-height: 140%;
+    margin-top: 26px;
+    margin-bottom: 28px;
+    text-align: center;
+    color: #CCCCCC;
+  }
+  
+}
+
+
+
+      
+
+
+
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

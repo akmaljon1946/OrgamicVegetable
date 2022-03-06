@@ -1,0 +1,26 @@
+// footer
+@mixin rfont() {
+  font: {
+    family: Oswald;
+    style: normal;
+    weight: 600;
+    size: 24px;
+
+  }
+
+  line-height: 140%;
+  margin-bottom: 34px;
+  color: #FFFFFF;
+}
+
+@mixin info() {
+    font: {
+      family: Gilroy;
+      style: normal;
+      weight: 500;
+      size: 16px;
+    }
+    margin-bottom: 22px;
+    line-height: 140%;
+    color: #CCCCCC;
+}
